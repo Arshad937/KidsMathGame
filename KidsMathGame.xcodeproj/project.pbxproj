@@ -23,6 +23,7 @@
 		BED09BBD2B55115200A136E4 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBC2B55115200A136E4 /* CountView.swift */; };
 		BED09BBF2B552C9A00A136E4 /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */; };
 		BED09BC12B55322700A136E4 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BC02B55322700A136E4 /* ViewModifier.swift */; };
+		BED09BC42B5555BA00A136E4 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BC32B5555BA00A136E4 /* MatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		BED09BBC2B55115200A136E4 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
 		BED09BC02B55322700A136E4 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
+		BED09BC32B5555BA00A136E4 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +86,7 @@
 				BED09BA82B5503C400A136E4 /* Fonts */,
 				BED09BA32B55016C00A136E4 /* Views */,
 				BED09BBB2B55112B00A136E4 /* Count */,
+				BED09BC22B55559A00A136E4 /* Match */,
 				BED09B992B55004E00A136E4 /* Assets.xcassets */,
 				BED09B9B2B55004E00A136E4 /* Preview Content */,
 			);
@@ -101,8 +104,8 @@
 		BED09BA32B55016C00A136E4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BED09BA42B55019300A136E4 /* BackgroundView.swift */,
 				BED09BB92B550AB700A136E4 /* HomeView.swift */,
+				BED09BA42B55019300A136E4 /* BackgroundView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -127,6 +130,14 @@
 				BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */,
 			);
 			path = Count;
+			sourceTree = "<group>";
+		};
+		BED09BC22B55559A00A136E4 /* Match */ = {
+			isa = PBXGroup;
+			children = (
+				BED09BC32B5555BA00A136E4 /* MatchView.swift */,
+			);
+			path = Match;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -210,6 +221,7 @@
 				BED09BAA2B5503EB00A136E4 /* Fonts.swift in Sources */,
 				BED09B982B55004900A136E4 /* ContentView.swift in Sources */,
 				BED09BBF2B552C9A00A136E4 /* CountViewModel.swift in Sources */,
+				BED09BC42B5555BA00A136E4 /* MatchView.swift in Sources */,
 				BED09BBA2B550AB700A136E4 /* HomeView.swift in Sources */,
 				BED09B962B55004900A136E4 /* KidsMathGameApp.swift in Sources */,
 				BED09BA72B5501D000A136E4 /* Model.swift in Sources */,

@@ -11,7 +11,7 @@ import SwiftUI
 struct KidsMathGameApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }
