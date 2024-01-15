@@ -11,6 +11,16 @@
 		BED09B982B55004900A136E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09B972B55004900A136E4 /* ContentView.swift */; };
 		BED09B9A2B55004E00A136E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED09B992B55004E00A136E4 /* Assets.xcassets */; };
 		BED09B9D2B55004E00A136E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED09B9C2B55004E00A136E4 /* Preview Assets.xcassets */; };
+		BED09BA52B55019300A136E4 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BA42B55019300A136E4 /* BackgroundView.swift */; };
+		BED09BA72B5501D000A136E4 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BA62B5501D000A136E4 /* Model.swift */; };
+		BED09BAA2B5503EB00A136E4 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BA92B5503EB00A136E4 /* Fonts.swift */; };
+		BED09BB12B55045900A136E4 /* Poppins-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BED09BAE2B55045900A136E4 /* Poppins-Regular.ttf */; };
+		BED09BB22B55045900A136E4 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BED09BAF2B55045900A136E4 /* Poppins-Light.ttf */; };
+		BED09BB32B55045900A136E4 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BED09BB02B55045900A136E4 /* Poppins-Bold.ttf */; };
+		BED09BB62B55063E00A136E4 /* Poppins-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BED09BB52B55063D00A136E4 /* Poppins-ExtraBold.ttf */; };
+		BED09BB82B5508D500A136E4 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BED09BB72B5508D400A136E4 /* Poppins-Thin.ttf */; };
+		BED09BBA2B550AB700A136E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BB92B550AB700A136E4 /* HomeView.swift */; };
+		BED09BBD2B55115200A136E4 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBC2B55115200A136E4 /* CountView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +29,17 @@
 		BED09B972B55004900A136E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BED09B992B55004E00A136E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED09B9C2B55004E00A136E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BED09BA42B55019300A136E4 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		BED09BA62B5501D000A136E4 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		BED09BA92B5503EB00A136E4 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		BED09BAE2B55045900A136E4 /* Poppins-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Regular.ttf"; sourceTree = "<group>"; };
+		BED09BAF2B55045900A136E4 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Light.ttf"; sourceTree = "<group>"; };
+		BED09BB02B55045900A136E4 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		BED09BB42B55047600A136E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BED09BB52B55063D00A136E4 /* Poppins-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-ExtraBold.ttf"; sourceTree = "<group>"; };
+		BED09BB72B5508D400A136E4 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
+		BED09BB92B550AB700A136E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		BED09BBC2B55115200A136E4 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +72,13 @@
 		BED09B942B55004900A136E4 /* KidsMathGame */ = {
 			isa = PBXGroup;
 			children = (
+				BED09BB42B55047600A136E4 /* Info.plist */,
 				BED09B952B55004900A136E4 /* KidsMathGameApp.swift */,
+				BED09BA62B5501D000A136E4 /* Model.swift */,
 				BED09B972B55004900A136E4 /* ContentView.swift */,
+				BED09BA82B5503C400A136E4 /* Fonts */,
+				BED09BA32B55016C00A136E4 /* Views */,
+				BED09BBB2B55112B00A136E4 /* Count */,
 				BED09B992B55004E00A136E4 /* Assets.xcassets */,
 				BED09B9B2B55004E00A136E4 /* Preview Content */,
 			);
@@ -65,6 +91,36 @@
 				BED09B9C2B55004E00A136E4 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BED09BA32B55016C00A136E4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BED09BA42B55019300A136E4 /* BackgroundView.swift */,
+				BED09BB92B550AB700A136E4 /* HomeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BED09BA82B5503C400A136E4 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				BED09BB02B55045900A136E4 /* Poppins-Bold.ttf */,
+				BED09BAF2B55045900A136E4 /* Poppins-Light.ttf */,
+				BED09BAE2B55045900A136E4 /* Poppins-Regular.ttf */,
+				BED09BB52B55063D00A136E4 /* Poppins-ExtraBold.ttf */,
+				BED09BB72B5508D400A136E4 /* Poppins-Thin.ttf */,
+				BED09BA92B5503EB00A136E4 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		BED09BBB2B55112B00A136E4 /* Count */ = {
+			isa = PBXGroup;
+			children = (
+				BED09BBC2B55115200A136E4 /* CountView.swift */,
+			);
+			path = Count;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,8 +181,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED09BB12B55045900A136E4 /* Poppins-Regular.ttf in Resources */,
+				BED09BB82B5508D500A136E4 /* Poppins-Thin.ttf in Resources */,
 				BED09B9D2B55004E00A136E4 /* Preview Assets.xcassets in Resources */,
+				BED09BB32B55045900A136E4 /* Poppins-Bold.ttf in Resources */,
 				BED09B9A2B55004E00A136E4 /* Assets.xcassets in Resources */,
+				BED09BB62B55063E00A136E4 /* Poppins-ExtraBold.ttf in Resources */,
+				BED09BB22B55045900A136E4 /* Poppins-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BED09BA52B55019300A136E4 /* BackgroundView.swift in Sources */,
+				BED09BBD2B55115200A136E4 /* CountView.swift in Sources */,
+				BED09BAA2B5503EB00A136E4 /* Fonts.swift in Sources */,
 				BED09B982B55004900A136E4 /* ContentView.swift in Sources */,
+				BED09BBA2B550AB700A136E4 /* HomeView.swift in Sources */,
 				BED09B962B55004900A136E4 /* KidsMathGameApp.swift in Sources */,
+				BED09BA72B5501D000A136E4 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +263,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -254,7 +320,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
@@ -274,11 +340,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KidsMathGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsMathGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -286,9 +354,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KidsMathGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -302,11 +373,13 @@
 				DEVELOPMENT_ASSET_PATHS = "\"KidsMathGame/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = KidsMathGame/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,9 +387,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.KidsMathGame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
