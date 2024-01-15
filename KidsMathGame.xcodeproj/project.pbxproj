@@ -21,6 +21,8 @@
 		BED09BB82B5508D500A136E4 /* Poppins-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BED09BB72B5508D400A136E4 /* Poppins-Thin.ttf */; };
 		BED09BBA2B550AB700A136E4 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BB92B550AB700A136E4 /* HomeView.swift */; };
 		BED09BBD2B55115200A136E4 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBC2B55115200A136E4 /* CountView.swift */; };
+		BED09BBF2B552C9A00A136E4 /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */; };
+		BED09BC12B55322700A136E4 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BC02B55322700A136E4 /* ViewModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +42,8 @@
 		BED09BB72B5508D400A136E4 /* Poppins-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Poppins-Thin.ttf"; sourceTree = "<group>"; };
 		BED09BB92B550AB700A136E4 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		BED09BBC2B55115200A136E4 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
+		BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
+		BED09BC02B55322700A136E4 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 				BED09BB42B55047600A136E4 /* Info.plist */,
 				BED09B952B55004900A136E4 /* KidsMathGameApp.swift */,
 				BED09BA62B5501D000A136E4 /* Model.swift */,
+				BED09BC02B55322700A136E4 /* ViewModifier.swift */,
 				BED09B972B55004900A136E4 /* ContentView.swift */,
 				BED09BA82B5503C400A136E4 /* Fonts */,
 				BED09BA32B55016C00A136E4 /* Views */,
@@ -119,6 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				BED09BBC2B55115200A136E4 /* CountView.swift */,
+				BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */,
 			);
 			path = Count;
 			sourceTree = "<group>";
@@ -199,9 +205,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BED09BA52B55019300A136E4 /* BackgroundView.swift in Sources */,
+				BED09BC12B55322700A136E4 /* ViewModifier.swift in Sources */,
 				BED09BBD2B55115200A136E4 /* CountView.swift in Sources */,
 				BED09BAA2B5503EB00A136E4 /* Fonts.swift in Sources */,
 				BED09B982B55004900A136E4 /* ContentView.swift in Sources */,
+				BED09BBF2B552C9A00A136E4 /* CountViewModel.swift in Sources */,
 				BED09BBA2B550AB700A136E4 /* HomeView.swift in Sources */,
 				BED09B962B55004900A136E4 /* KidsMathGameApp.swift in Sources */,
 				BED09BA72B5501D000A136E4 /* Model.swift in Sources */,

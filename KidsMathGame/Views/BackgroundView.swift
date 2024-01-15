@@ -48,6 +48,7 @@ struct BackgroundView: View {
             }
             
         }
+        .ignoresSafeArea()
     }
 }
 
