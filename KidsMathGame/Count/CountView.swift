@@ -53,7 +53,6 @@ struct CountView: View {
                                     .disabled(viewModel.isAnswerSelected)
                                 }
                             }
-                            .padding(.horizontal, 12)
                             .padding(.vertical, 20)
 
                             HStack(alignment: .top, spacing: 25) {
@@ -61,7 +60,6 @@ struct CountView: View {
                                     Button(action: {
                                         viewModel.checkAnswer(index)
                                         viewModel.isAnswerSelected = true
-                                        viewModel.nextQuestion()
                                     })  {
                                         Text(CountQuestions[viewModel.currentQuestionIndex].options[index])
                                             .modifier(fullSizeButton())
@@ -69,13 +67,27 @@ struct CountView: View {
                                     }
                                 }
                             }
-                            .padding(.horizontal, 12)
-                            .padding(.vertical, 10)
+                            
+                            NavigationLink(destination: ProgressView(viewModel: viewModel),
+                                           isActive: $viewModel.goToProgress) {
+                                EmptyView()
+                            }
+                            Button(action: {
+                                viewModel.nextQuestion()
+                                viewModel.isAnswerSelected = false
+                                viewModel.questionNumber += 1
+                                viewModel.goToProgress
+                            }) {
+                                Text("Next")
+                                    .modifier(capsuleButton())
+                            }
+                            .disabled(!viewModel.isAnswerSelected)
+                            .background(viewModel.isAnswerSelected ? Color(hex: "#F9C380") : Color.white)
+                            .cornerRadius(30)
+                            .padding()
+                            
                         }
-                        .padding(.leading, 24)
-                        .padding(.trailing, 26)
-                        .padding(.vertical, 0)
-                        .frame(height: 165, alignment: .leading)
+                        .frame(height: 195, alignment: .leading)
                     }
             }
         }

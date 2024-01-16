@@ -35,7 +35,7 @@ struct capsuleButton: ViewModifier {
         content
             .font(.custom(Font.PoppinsLight, size: 22))
             .foregroundColor(.black)
-            .frame(width: 300, height: 65)
+            .frame(width: 200, height: 65)
         
     }
 }
@@ -44,15 +44,9 @@ struct playAgainButton: ViewModifier {
     func body(content: Content) -> some View {
         content
             .font(.custom(Font.PoppinsBold, size: 22))
-            .foregroundColor(.black)
+            .foregroundColor(Color(red: 0.93, green: 0.55, blue: 0.38))
             .frame(width: 190, height: 45)
-            .background((
-                LinearGradient(
-                    gradient: Gradient(colors: [Color(hex: "##9D00FF"), Color(hex: "#9800F5CC")]),
-                    startPoint: .leading,
-                    endPoint: .trailing)
-            ))
-        
+            .background(Color(hex: "#FBDAB1"))
             .foregroundColor(Color.white)
             .cornerRadius(10)
     }
