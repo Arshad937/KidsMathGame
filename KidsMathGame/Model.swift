@@ -10,7 +10,7 @@ import SwiftUI
 
 struct Question {
     let text: String
-    let image: UIImage
+    let image: String?
     let options: [String]
     let correctAnswerIndex: Int
 }

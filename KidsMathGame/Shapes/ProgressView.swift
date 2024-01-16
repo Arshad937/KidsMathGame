@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ProgressView: View {
-    @ObservedObject var viewModel: CountViewModel
+    @ObservedObject var viewModel: ShapeViewModel
     var body: some View {
         ZStack {
             BackgroundView(text: "")

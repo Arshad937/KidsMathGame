@@ -43,7 +43,7 @@ struct capsuleButton: ViewModifier {
 struct playAgainButton: ViewModifier {
     func body(content: Content) -> some View {
         content
-            .font(.custom(Font.PoppinsBold, size: 22))
+            .font((.custom(Font.PoppinsBold, size: 22)))
             .foregroundColor(Color(red: 0.93, green: 0.55, blue: 0.38))
             .frame(width: 190, height: 45)
             .background(Color(hex: "#FBDAB1"))

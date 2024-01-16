@@ -16,10 +16,10 @@ struct BackgroundView: View {
                     HStack(alignment: .top, spacing: 10) {
                         Text("Math is Fun!")
                             .font(.custom(Font.PoppinsBold, size: 46))
-                        .multilineTextAlignment(.center)
-                        .foregroundColor(Color(red: 0.93, green: 0.55, blue: 0.38))
-
-                        .frame(maxWidth: .infinity, minHeight: 72, maxHeight: 72, alignment: .center)
+                            .multilineTextAlignment(.center)
+                            .foregroundColor(Color(red: 0.93, green: 0.55, blue: 0.38))
+                        
+                            .frame(maxWidth: .infinity, minHeight: 72, maxHeight: 72, alignment: .center)
                     }
                     .padding(.horizontal, 32)
                     .padding(.vertical, 29)
@@ -37,16 +37,12 @@ struct BackgroundView: View {
                 Text(text ?? "Modes")
                     .font(.custom(Font.PoppinsRegular, size: 36))
                     .fontWeight(.semibold)
-                .multilineTextAlignment(.center)
-                .foregroundColor(Color(red: 0.93, green: 0.55, blue: 0.38))
-
-//                .frame(width: 305, height: 53, alignment: .center)
-                .frame(maxWidth: .infinity)
-                .frame(height: 590, alignment:.top)
-//                .background(Color.pink)
+                    .multilineTextAlignment(.center)
+                    .foregroundColor(Color(red: 0.93, green: 0.55, blue: 0.38))
+                    .frame(maxWidth: .infinity)
+                    .frame(height: 590, alignment:.top)
                 
             }
-            
         }
         .ignoresSafeArea()
     }

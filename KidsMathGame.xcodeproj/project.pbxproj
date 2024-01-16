@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BE5F8C7D2B5648DE00444ED3 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8C7C2B5648DE00444ED3 /* ProgressView.swift */; };
+		BE5F8C7D2B5648DE00444ED3 /* CountProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8C7C2B5648DE00444ED3 /* CountProgressView.swift */; };
+		BE5F8CB02B569B4000444ED3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8CAF2B569B4000444ED3 /* ShapeView.swift */; };
+		BE5F8CC22B56A8C800444ED3 /* ShapeProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8CC12B56A8C800444ED3 /* ShapeProgressView.swift */; };
+		BE5F8CC42B56A8CD00444ED3 /* ShapeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE5F8CC32B56A8CD00444ED3 /* ShapeViewModel.swift */; };
 		BED09B962B55004900A136E4 /* KidsMathGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09B952B55004900A136E4 /* KidsMathGameApp.swift */; };
-		BED09B982B55004900A136E4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09B972B55004900A136E4 /* ContentView.swift */; };
 		BED09B9A2B55004E00A136E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED09B992B55004E00A136E4 /* Assets.xcassets */; };
 		BED09B9D2B55004E00A136E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BED09B9C2B55004E00A136E4 /* Preview Assets.xcassets */; };
 		BED09BA52B55019300A136E4 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BA42B55019300A136E4 /* BackgroundView.swift */; };
@@ -24,14 +26,15 @@
 		BED09BBD2B55115200A136E4 /* CountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBC2B55115200A136E4 /* CountView.swift */; };
 		BED09BBF2B552C9A00A136E4 /* CountViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */; };
 		BED09BC12B55322700A136E4 /* ViewModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BC02B55322700A136E4 /* ViewModifier.swift */; };
-		BED09BC42B5555BA00A136E4 /* MatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED09BC32B5555BA00A136E4 /* MatchView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BE5F8C7C2B5648DE00444ED3 /* ProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		BE5F8C7C2B5648DE00444ED3 /* CountProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountProgressView.swift; sourceTree = "<group>"; };
+		BE5F8CAF2B569B4000444ED3 /* ShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		BE5F8CC12B56A8C800444ED3 /* ShapeProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeProgressView.swift; sourceTree = "<group>"; };
+		BE5F8CC32B56A8CD00444ED3 /* ShapeViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeViewModel.swift; sourceTree = "<group>"; };
 		BED09B922B55004900A136E4 /* KidsMathGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KidsMathGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BED09B952B55004900A136E4 /* KidsMathGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsMathGameApp.swift; sourceTree = "<group>"; };
-		BED09B972B55004900A136E4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BED09B992B55004E00A136E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BED09B9C2B55004E00A136E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BED09BA42B55019300A136E4 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
@@ -47,7 +50,6 @@
 		BED09BBC2B55115200A136E4 /* CountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountView.swift; sourceTree = "<group>"; };
 		BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountViewModel.swift; sourceTree = "<group>"; };
 		BED09BC02B55322700A136E4 /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
-		BED09BC32B5555BA00A136E4 /* MatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BE5F8CAE2B569B2500444ED3 /* Shapes */ = {
+			isa = PBXGroup;
+			children = (
+				BE5F8CAF2B569B4000444ED3 /* ShapeView.swift */,
+				BE5F8CC32B56A8CD00444ED3 /* ShapeViewModel.swift */,
+				BE5F8CC12B56A8C800444ED3 /* ShapeProgressView.swift */,
+			);
+			path = Shapes;
+			sourceTree = "<group>";
+		};
 		BED09B892B55004900A136E4 = {
 			isa = PBXGroup;
 			children = (
@@ -84,11 +96,10 @@
 				BED09B952B55004900A136E4 /* KidsMathGameApp.swift */,
 				BED09BA62B5501D000A136E4 /* Model.swift */,
 				BED09BC02B55322700A136E4 /* ViewModifier.swift */,
-				BED09B972B55004900A136E4 /* ContentView.swift */,
 				BED09BA82B5503C400A136E4 /* Fonts */,
 				BED09BA32B55016C00A136E4 /* Views */,
 				BED09BBB2B55112B00A136E4 /* Count */,
-				BED09BC22B55559A00A136E4 /* Match */,
+				BE5F8CAE2B569B2500444ED3 /* Shapes */,
 				BED09B992B55004E00A136E4 /* Assets.xcassets */,
 				BED09B9B2B55004E00A136E4 /* Preview Content */,
 			);
@@ -130,17 +141,9 @@
 			children = (
 				BED09BBC2B55115200A136E4 /* CountView.swift */,
 				BED09BBE2B552C9A00A136E4 /* CountViewModel.swift */,
-				BE5F8C7C2B5648DE00444ED3 /* ProgressView.swift */,
+				BE5F8C7C2B5648DE00444ED3 /* CountProgressView.swift */,
 			);
 			path = Count;
-			sourceTree = "<group>";
-		};
-		BED09BC22B55559A00A136E4 /* Match */ = {
-			isa = PBXGroup;
-			children = (
-				BED09BC32B5555BA00A136E4 /* MatchView.swift */,
-			);
-			path = Match;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -218,17 +221,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE5F8CC22B56A8C800444ED3 /* ShapeProgressView.swift in Sources */,
 				BED09BA52B55019300A136E4 /* BackgroundView.swift in Sources */,
 				BED09BC12B55322700A136E4 /* ViewModifier.swift in Sources */,
+				BE5F8CB02B569B4000444ED3 /* ShapeView.swift in Sources */,
 				BED09BBD2B55115200A136E4 /* CountView.swift in Sources */,
 				BED09BAA2B5503EB00A136E4 /* Fonts.swift in Sources */,
-				BED09B982B55004900A136E4 /* ContentView.swift in Sources */,
 				BED09BBF2B552C9A00A136E4 /* CountViewModel.swift in Sources */,
-				BED09BC42B5555BA00A136E4 /* MatchView.swift in Sources */,
+				BE5F8CC42B56A8CD00444ED3 /* ShapeViewModel.swift in Sources */,
 				BED09BBA2B550AB700A136E4 /* HomeView.swift in Sources */,
 				BED09B962B55004900A136E4 /* KidsMathGameApp.swift in Sources */,
 				BED09BA72B5501D000A136E4 /* Model.swift in Sources */,
-				BE5F8C7D2B5648DE00444ED3 /* ProgressView.swift in Sources */,
+				BE5F8C7D2B5648DE00444ED3 /* CountProgressView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +366,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KidsMathGame/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidsMathGame/Info.plist;
@@ -395,6 +400,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"KidsMathGame/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = KidsMathGame/Info.plist;
